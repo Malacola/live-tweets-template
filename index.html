@@ -73,6 +73,11 @@
             ]
         }, tweetRace.start);  // Callback function to start when map is loaded
         
+        $.getJSON("http://api.songkick.com/api/3.0/events.json?location=clientip&apikey=jczyR3FY1lUQf3G3&jsoncallback=?",
+	function(data) {
+		alert('YAY');
+	});
+        
     </script>
 </body>
 </html>

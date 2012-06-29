@@ -50,8 +50,8 @@
     
         // Specify the tweets and location / radius to search
         var tweets = [
-            'work',             // First term
-            'play',             // Second term
+            'herp',             // First term
+            'derp',             // Second term
             '39,-98,1500mi'     // search location and radius (lat,lon,radius)
         ];
 
@@ -75,7 +75,7 @@
         
         $.getJSON("http://api.songkick.com/api/3.0/events.json?location=clientip&apikey=jczyR3FY1lUQf3G3&jsoncallback=?",
 	function(data) {
-		alert('YAY');
+		console.log('YAY');
 	});
     
     //Pushing from cloud9!
